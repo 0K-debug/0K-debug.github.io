@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '.',
+  trailingSlash: true,
   // No basePath needed for username.github.io repository
 }
 
