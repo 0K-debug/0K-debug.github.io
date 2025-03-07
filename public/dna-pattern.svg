@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dna-pattern" x="0" y="0" width="60" height="100" patternUnits="userSpaceOnUse">
+      <!-- Vertical backbones -->
+      <line x1="20" y1="0" x2="20" y2="100" stroke="white" stroke-width="0.5" opacity="0.3"/>
+      <line x1="40" y1="0" x2="40" y2="100" stroke="white" stroke-width="0.5" opacity="0.3"/>
+      
+      <!-- Base pairs -->
+      <line x1="20" y1="20" x2="40" y2="20" stroke="white" stroke-width="0.5" opacity="0.2"/>
+      <line x1="20" y1="40" x2="40" y2="40" stroke="white" stroke-width="0.5" opacity="0.2"/>
+      <line x1="20" y1="60" x2="40" y2="60" stroke="white" stroke-width="0.5" opacity="0.2"/>
+      <line x1="20" y1="80" x2="40" y2="80" stroke="white" stroke-width="0.5" opacity="0.2"/>
+      
+      <!-- Base letters (A-T, G-C) -->
+      <text x="15" y="24" font-size="4" fill="white" opacity="0.3" text-anchor="end">A</text>
+      <text x="45" y="24" font-size="4" fill="white" opacity="0.3">T</text>
+      
+      <text x="15" y="44" font-size="4" fill="white" opacity="0.3" text-anchor="end">G</text>
+      <text x="45" y="44" font-size="4" fill="white" opacity="0.3">C</text>
+      
+      <text x="15" y="64" font-size="4" fill="white" opacity="0.3" text-anchor="end">C</text>
+      <text x="45" y="64" font-size="4" fill="white" opacity="0.3">G</text>
+      
+      <text x="15" y="84" font-size="4" fill="white" opacity="0.3" text-anchor="end">T</text>
+      <text x="45" y="84" font-size="4" fill="white" opacity="0.3">A</text>
+      
+      <!-- Helix curves -->
+      <path d="M20 0 C25 10, 35 10, 40 20 C45 30, 15 30, 20 40 C25 50, 35 50, 40 60 C45 70, 15 70, 20 80 C25 90, 35 90, 40 100" 
+            stroke="white" stroke-width="0.5" opacity="0.2" fill="none"/>
+      <path d="M40 0 C35 10, 25 10, 20 20 C15 30, 45 30, 40 40 C35 50, 25 50, 20 60 C15 70, 45 70, 40 80 C35 90, 25 90, 20 100" 
+            stroke="white" stroke-width="0.5" opacity="0.2" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="100" height="100" fill="url(#dna-pattern)"/>
+</svg> 
