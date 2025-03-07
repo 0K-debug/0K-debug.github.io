@@ -237,7 +237,7 @@ const Home: FC = () => {
                   <span className={`transition-all duration-500 ${highlightedWord === 'healthspan' ? 'text-white font-light drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]' : ''}`}>
                     healthspan
                   </span>. 
-                  We're redefining the boundaries of human potential.
+                  We&apos;re redefining the boundaries of human potential.
                 </p>
                 <div className="mt-12 opacity-0 animate-slide-up [animation-delay:1200ms]">
                   <div className="inline-flex items-center space-x-3 text-sm tracking-[0.2em] font-extralight text-neutral-400">
@@ -253,11 +253,11 @@ const Home: FC = () => {
                   {/* Clock-inspired circular design */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-full h-full rounded-full border border-white/5 relative">
-                      {/* Cardinal dots (12, 3, 6, 9 o'clock) */}
-                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full top-0 left-1/2 -translate-x-1/2" /> {/* 12 o'clock */}
-                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full right-0 top-1/2 translate-y-[-50%]" /> {/* 3 o'clock */}
-                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full bottom-0 left-1/2 -translate-x-1/2" /> {/* 6 o'clock */}
-                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full left-0 top-1/2 translate-y-[-50%]" /> {/* 9 o'clock */}
+                      {/* Cardinal dots (12, 3, 6, 9 o&apos;clock) */}
+                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full top-0 left-1/2 -translate-x-1/2" /> {/* 12 o&apos;clock */}
+                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full right-0 top-1/2 translate-y-[-50%]" /> {/* 3 o&apos;clock */}
+                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full bottom-0 left-1/2 -translate-x-1/2" /> {/* 6 o&apos;clock */}
+                      <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full left-0 top-1/2 translate-y-[-50%]" /> {/* 9 o&apos;clock */}
                       
                       {/* Clock hands with smoother transitions */}
                       <div 
@@ -382,7 +382,7 @@ const Home: FC = () => {
                   Various organisms demonstrate that aging is not an inevitable process.
                 </p>
                 <p className="mt-6 text-base text-neutral-400 sm:text-lg md:text-xl leading-relaxed font-extralight tracking-wide opacity-0 animate-slide-up [animation-delay:800ms]">
-                  Human aging is not an immutable ceiling—it's a challenge that nature has already overcome. 
+                  Human aging is not an immutable ceiling—it&apos;s a challenge that nature has already overcome. 
                   By understanding these evolutionary successes, we can work towards extending human healthspan and lifespan.
                 </p>
               </div>
@@ -460,7 +460,7 @@ const Home: FC = () => {
                   {/* Abstract geometric design with processor/petri dish */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <svg viewBox="0 0 240 240" className="w-[90%] h-[90%]">
-                      {/* Base X lines that don't intersect - adjusted to leave gap */}
+                      {/* Base X lines that don&apos;t intersect - adjusted to leave gap */}
                       <path 
                         d="M30 30 L85 85 M155 85 L210 30" 
                         className="stroke-white/10 stroke-[0.5] fill-none"
