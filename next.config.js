@@ -3,9 +3,8 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-  },
-  basePath: '/ok-debug.github.io',
-  // If this is your username.github.io repo, you can remove basePath
+  }
+  // Remove basePath since this is a username.github.io repository
 }
 
 module.exports = nextConfig 
